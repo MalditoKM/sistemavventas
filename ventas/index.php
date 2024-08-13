@@ -384,7 +384,7 @@ include ('../app/controllers/clientes/listado_de_clientes.php');
 <?php include ('../layout/parte2.php'); ?>
 
 
- <!-- Scripts para inicializar DataTables -->
+<!-- Scripts para inicializar DataTables -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
 <!-- DataTables Buttons -->
@@ -400,7 +400,7 @@ include ('../app/controllers/clientes/listado_de_clientes.php');
 <script>
     $(document).ready(function() {
         var table = $('#example1').DataTable({
-            "pageLength": 5,
+            "pageLength": 25,
             "language": {
                 "emptyTable": "No hay información",
                 "info": "Mostrando _START_ a _END_ de _TOTAL_ Ventas",
